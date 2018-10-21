@@ -8,6 +8,7 @@ Plug 'tpope/vim-surround'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' } 
 Plug 'junegunn/fzf.vim'
+Plug 'w0rp/ale'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
@@ -25,3 +26,7 @@ let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 " Assign \f to opening NERDTree
 nnoremap <Leader>f :NERDTreeToggle<Enter>
+
+" ALE config
+let b:ale_fixers = ['eslint']
+let b:ale_fix_on_save = 1
