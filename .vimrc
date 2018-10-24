@@ -18,10 +18,16 @@ set number
 syntax on
 set laststatus=2
 set background=dark
-colorscheme GruvBox
+colorscheme gruvbox
 set t_Co=256
 set ttimeoutlen=50
 set relativenumber
+
+" tab
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set expandtab
 
 " NERD Tree config
 let NERDTreeMinimalUI = 1
