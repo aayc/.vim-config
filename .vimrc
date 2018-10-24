@@ -21,11 +21,7 @@ set background=dark
 colorscheme PaperColor
 set t_Co=256
 set ttimeoutlen=50
-
-" tab settings
-set ts=2
-set sts=2
-set sw=2
+set relativenumber
 
 " NERD Tree config
 let NERDTreeMinimalUI = 1
