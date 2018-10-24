@@ -22,6 +22,11 @@ colorscheme PaperColor
 set t_Co=256
 set ttimeoutlen=50
 
+" tab settings
+set ts=2
+set sts=2
+set sw=2
+
 " NERD Tree config
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
