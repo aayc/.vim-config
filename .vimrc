@@ -20,7 +20,7 @@ set laststatus=2
 set background=dark
 colorscheme gruvbox
 set t_Co=256
-set ttimeoutlen=50
+set ttimeoutlen=10
 set relativenumber
 
 " tab
@@ -37,3 +37,9 @@ nnoremap <Leader>f :NERDTreeToggle<Enter>
 
 " ALE config
 let g:ale_fix_on_save = 1
+
+" Move between buffers
+nmap <Tab> :bnext<CR>
+
+" Selection shortcuts
+nnoremap W viw
