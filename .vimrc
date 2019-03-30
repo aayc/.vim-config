@@ -43,3 +43,6 @@ nmap <Tab> :bnext<CR>
 
 " Selection shortcuts
 nnoremap W viw
+
+" Competition code snippets"
+
