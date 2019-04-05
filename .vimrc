@@ -23,6 +23,11 @@ set t_Co=256
 set ttimeoutlen=10
 set relativenumber
 
+" see cursor
+set nocompatible
+set mouse=a
+set cursorline
+
 " tab
 set tabstop=2
 set shiftwidth=2
