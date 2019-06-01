@@ -10,6 +10,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'vim-syntastic/syntastic'
 Plug 'w0rp/ale'
 Plug 'morhetz/gruvbox'
+Plug 'kshenoy/vim-signature'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
@@ -34,6 +35,12 @@ let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 " Assign \f to opening NERDTree
 nnoremap <Leader>f :NERDTreeToggle<Enter>
+
+" Rah I always accidently type the capital because of the colon.
+:command WQ wq
+:command Wq wq
+:command W w
+:command Q q
 
 " ALE config
 let g:ale_fix_on_save = 1
